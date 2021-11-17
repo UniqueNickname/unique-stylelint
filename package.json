@@ -1,0 +1,70 @@
+{
+	"name": "@unique/stylelint-config",
+	"version": "1.0.0",
+	"description": "Shareable strict config for Stylelint supporting SASS/SCSS",
+	"keywords": [
+		"stylelint",
+		"stylelint-config",
+		"stylelint-scss"
+	],
+	"homepage": "https://github.com/UniqueNickname/unique-stylelint#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/UniqueNickname/unique-stylelint"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Ivan Kochura",
+		"email": "dr.art-47@yandex.ru",
+		"url": "https://github.com/UniqueNickname/"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"commit": "git cz",
+		"lint": "eslint . --ignore-path .gitignore",
+		"lint:fix": "eslint . --ignore-path .gitignore --fix",
+		"precommit": "lint-staged",
+		"prepare": "husky install",
+		"release": "np"
+	},
+	"lint-staged": {
+		"*.js": "eslint --cache --fix"
+	},
+	"eslintConfig": {
+		"globals": {
+			"module": true,
+			"require": true
+		}
+	},
+	"config": {
+		"commitizen": {
+			"path": "@commitlint/cz-commitlint"
+		}
+	},
+	"dependencies": {
+		"postcss-scss": "^4.0.2",
+		"stylelint-config-standard": "^23.0.0",
+		"stylelint-declaration-block-no-ignored-properties": "^2.4.0",
+		"stylelint-order": "^5.0.0",
+		"stylelint-scss": "^4.0.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^14.1.0",
+		"@commitlint/config-conventional": "^14.1.0",
+		"@commitlint/cz-commitlint": "^14.1.0",
+		"@commitlint/format": "^14.1.0",
+		"@commitlint/types": "^14.0.0",
+		"commitizen": "^4.2.4",
+		"eslint": "^8.2.0",
+		"eslint-config-stylelint": "^15.0.0",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.0.2",
+		"np": "^7.5.0"
+	},
+	"peerDependencies": {
+		"stylelint": "^14.0.1"
+	}
+}
