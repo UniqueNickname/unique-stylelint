@@ -45,6 +45,7 @@
 		}
 	},
 	"np": {
+		"tests": false,
 		"yarn": false
 	},
 	"publishConfig": {
