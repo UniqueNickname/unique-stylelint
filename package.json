@@ -1,6 +1,6 @@
 {
 	"name": "@unique-code/stylelint-config",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Shareable strict config for Stylelint supporting SASS/SCSS",
 	"keywords": [
 		"stylelint",
