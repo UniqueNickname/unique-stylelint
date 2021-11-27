@@ -1,6 +1,6 @@
 {
 	"name": "@unique-code/stylelint-config",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"description": "Shareable strict config for Stylelint supporting SASS/SCSS",
 	"keywords": [
 		"stylelint",
@@ -45,7 +45,7 @@
 		}
 	},
 	"np": {
-		"yarn": true
+		"yarn": false
 	},
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org"
