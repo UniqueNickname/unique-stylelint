@@ -49,7 +49,8 @@
 		"yarn": false
 	},
 	"publishConfig": {
-		"registry": "https://registry.npmjs.org"
+		"registry": "https://registry.npmjs.org",
+		"access": "public"
 	},
 	"dependencies": {
 		"postcss-scss": "^4.0.2",
