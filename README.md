@@ -1,17 +1,17 @@
 [![NPM version](https://img.shields.io/npm/v/@unique/stylelint-config.svg)](https://www.npmjs.org/package/@unique/stylelint-config)
 
-# Unique Nickname's stylelint config
+# Strict stylelint config
 
 > Shareable strict config for Stylelint supporting SASS/SCSS
 
 ## Install
 
 ```bash
-npm install @unique/stylelint-config --save-dev
+npm install stylelint @unique-code/stylelint-config --save-dev
 
 # or
 
-yarn add @unique/stylelint-config --dev
+yarn add stylelint @unique-code/stylelint-config --dev
 ```
 
 ## Usage
@@ -20,6 +20,6 @@ Set your stylelint config to:
 
 ```json
 {
-  "extends": "@unique/stylelint-config"
+  "extends": "@unique-code/stylelint-config"
 }
 ```

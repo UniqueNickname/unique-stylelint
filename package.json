@@ -1,5 +1,5 @@
 {
-	"name": "@unique/stylelint-config",
+	"name": "@unique-code/stylelint-config",
 	"version": "1.0.0",
 	"description": "Shareable strict config for Stylelint supporting SASS/SCSS",
 	"keywords": [
@@ -43,6 +43,12 @@
 		"commitizen": {
 			"path": "@commitlint/cz-commitlint"
 		}
+	},
+	"np": {
+		"yarn": true
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org"
 	},
 	"dependencies": {
 		"postcss-scss": "^4.0.2",
