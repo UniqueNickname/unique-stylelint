@@ -1,4 +1,4 @@
-[![NPM version](https://img.shields.io/npm/v/@unique/stylelint-config.svg)](https://www.npmjs.org/package/@unique/stylelint-config)
+[![NPM version](https://img.shields.io/npm/v/@unique-code/stylelint-config.svg)](https://www.npmjs.org/package/@unique/stylelint-config)
 
 # Strict stylelint config
 
